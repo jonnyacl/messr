@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["ES2021", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "strict": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noFallthroughCasesInSwitch": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "allowJs": true
+  },
+  "include": ["./src/**/*"]
+}
