@@ -6,6 +6,7 @@
   "main": "dist/server.js",
   "scripts": {
     "build": "yarn build:server && yarn build:client",
+    "build:prod": "yarn build:server --env production=true && yarn build:client --env production=true",
     "build:server": "webpack --config webpack.server.js",
     "build:client": "webpack --config webpack.client.js",
     "serve": "node dist/server/server.js",
